@@ -10,6 +10,7 @@ module.exports = [
       ], // ✅ Разрешаем запросы с Vercel
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+      credentials: true, // ✅ Разрешаем куки и авторизацию
     },
   },
   'strapi::poweredBy',
