@@ -5,12 +5,10 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: [
-        'https://props-test2duplicat-graphql-5sn2x8fh2-dmytro-ts-projects.vercel.app',
-      ], // ✅ Разрешаем только твой фронтенд
+      enabled: true,
+      origin: ['https://props-test2duplicat-graphql.vercel.app'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      credentials: true, // ✅ Разрешаем отправку куков и авторизацию
+      headers: ['Content-Type', 'Authorization'],
     },
   },
   'strapi::poweredBy',
