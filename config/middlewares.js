@@ -7,10 +7,10 @@ module.exports = [
     config: {
       origin: [
         'https://props-test2duplicat-graphql-5sn2x8fh2-dmytro-ts-projects.vercel.app',
-      ], // ✅ Разрешаем запросы с Vercel
+      ], // ✅ Разрешаем только твой фронтенд
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      credentials: true, // ✅ Разрешаем куки и авторизацию
+      credentials: true, // ✅ Разрешаем отправку куков и авторизацию
     },
   },
   'strapi::poweredBy',
