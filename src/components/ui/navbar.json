@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_navbars",
+  "info": {
+    "displayName": "navbar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "links": {
+      "displayName": "links-navbar",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.links-navbar"
+    }
+  }
+}

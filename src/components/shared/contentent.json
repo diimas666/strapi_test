@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_contentents",
+  "info": {
+    "displayName": "contentent"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}
